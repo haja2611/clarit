@@ -1,0 +1,593 @@
+.Serviceintro-title1 {
+  z-index: 1;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #f1602d;
+  font-size: 14px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  margin-top: 0px;
+  text-align: center;
+  margin-top: -50px;
+}
+.line {
+  width: 60px;
+  height: 2px;
+  border: none;
+  background-image: linear-gradient(to right, #f1602d, #fcb900);
+  margin-left: 60%;
+  margin-top: -40px;
+}
+.Serviceintro-title2 {
+  font-size: 3rem;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  line-height: 1.3;
+  position: relative;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.64px;
+  color: #222429;
+  text-align: center;
+}
+/* center to both side animation
+figure {
+	width: 300px;
+	height: 200px;
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	overflow: hidden;
+}
+
+.hover15 figure {
+	position: relative;
+}
+.hover15 figure::before {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: 1;
+	display: block;
+	content: '';
+	width: 0;
+	height: 100%;
+	background: rgba(255,255,255,.1);
+	transform: translate(-50%, -50%);
+	
+}
+.hover15 figure:hover::before {
+	
+	animation: rectangle .95s;
+}
+
+@keyframes rectangle {
+	0% {
+		opacity: 1;
+	}
+	40% {
+		opacity: 1;
+	}
+	100% {
+		width: 200%;
+		height: 200%;
+		opacity: 0;
+	}
+}
+
+
+
+*/
+.intro-boxes {
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.zoom-effect-container-infor-intro-image {
+  overflow: hidden;
+  width: 350px;
+  height: 350px;
+}
+
+.infor-intro-image img {
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+  width: 350px;
+  height: 350px;
+}
+
+.informatica-intro-box:hover .infor-intro-image img {
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+}
+
+.informatica-intro-box {
+  transition: box-shadow 0.3s;
+  width: 360px;
+  height: 550px;
+  border: 1px solid #6ec1e4;
+  background: #fff;
+  padding: 10px 10px 50px 10px;
+}
+.informatica-intro-box:hover {
+  box-shadow: 0 0 40px rgba(33, 33, 33, 0.2);
+}
+
+.infor-intro-title1 {
+  margin-bottom: 14px;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.4;
+  text-align: left;
+  color: #222429;
+  margin-left: 30px;
+  margin-top: 0px;
+}
+.infor-intro-para1 {
+  line-height: 1.9;
+  color: #808287;
+  text-align: left;
+  font-size: 1rem;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  margin-left: 30px;
+}
+
+.infor-intro-title1-link:link {
+  text-decoration: none;
+  color: #222429;
+}
+
+.infor-intro-title1-link:visited {
+  text-decoration: none;
+  color: #222429;
+}
+
+.infor-intro-title1-link:hover {
+  text-decoration: none;
+  color: #f1602d;
+}
+
+.infor-intro-title1-link:active {
+  text-decoration: none;
+}
+
+/*readmore arrow*/
+.readmorelink-infotmatica p {
+  display: inline-block;
+  transition: 0.1s ease-in;
+  color: #f1602d;
+}
+
+.readmorelink-infotmatica:hover p {
+  transform: translateX(-100%);
+  color: transparent;
+}
+/* readmore*/
+
+.readmorelink-infotmatica:link {
+  text-decoration: none;
+  font-size: 12px;
+  color: #808287;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.9;
+  letter-spacing: 0.1em;
+
+  float: left;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+
+.readmorelink-infotmatica:visited {
+  text-decoration: none;
+  color: #808287;
+}
+
+.readmorelink-infotmatica:hover {
+  text-decoration: none;
+  color: #f1602d;
+}
+
+.readmorelink-infotmatica:active {
+  text-decoration: none;
+}
+.bussiness-icon-intro {
+  margin-top: -80px;
+  margin-left: -200px;
+  position: relative;
+  width: 90px;
+  height: 90px;
+  background-color: #f1602d;
+}
+.bussiness-icon-intro1 {
+  background-image: url("C:\reactjs\clarit\src\picture\business-icon-intro.jpg");
+  height: 80px;
+  width: 90px;
+}
+
+.infor-container {
+  height: 20px;
+  width: 90px;
+  border-style: solid;
+  border-width: 10px 10px;
+  border-color: #f1602d transparent transparent transparent;
+  margin-top: -10px;
+  margin-left: -200px;
+}
+
+/*salesforce*/
+
+/* center to both side animation
+figure {
+	width: 300px;
+	height: 200px;
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	overflow: hidden;
+}
+
+.hover15 figure {
+	position: relative;
+}
+.hover15 figure::before {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: 1;
+	display: block;
+	content: '';
+	width: 0;
+	height: 100%;
+	background: rgba(255,255,255,.1);
+	transform: translate(-50%, -50%);
+	
+}
+.hover15 figure:hover::before {
+	
+	animation: rectangle .95s;
+}
+
+@keyframes rectangle {
+	0% {
+		opacity: 1;
+	}
+	40% {
+		opacity: 1;
+	}
+	100% {
+		width: 200%;
+		height: 200%;
+		opacity: 0;
+	}
+}
+
+
+
+*/
+
+.zoom-effect-container-Salesforce-intro-image {
+  overflow: hidden;
+  width: 350px;
+  height: 350px;
+}
+
+.Salesforce-intro-image img {
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+  width: 350px;
+  height: 350px;
+}
+
+.Salesforce-intro-box:hover .Salesforce-intro-image img {
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+}
+
+.Salesforce-intro-box {
+  transition: box-shadow 0.3s;
+  width: 360px;
+  height: 580px;
+  border: 1px solid #6ec1e4;
+  background: #fff;
+  padding: 10px 10px 50px 10px;
+}
+.Salesforce-intro-box:hover {
+  box-shadow: 0 0 40px rgba(33, 33, 33, 0.2);
+}
+
+.Salesforce-intro-title1 {
+  margin-bottom: 14px;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.4;
+  text-align: left;
+  color: #222429;
+  margin-left: 30px;
+  margin-top: 0px;
+}
+.Salesforce-intro-para1 {
+  line-height: 1.9;
+  color: #808287;
+  text-align: left;
+  font-size: 1rem;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  margin-left: 30px;
+}
+
+.Salesforce-intro-title1-link:link {
+  text-decoration: none;
+  color: #222429;
+}
+
+.Salesforce-intro-title1-link:visited {
+  text-decoration: none;
+  color: #222429;
+}
+
+.Salesforce-intro-title1-link:hover {
+  text-decoration: none;
+  color: #f1602d;
+}
+
+.infor-intro-title1-link:active {
+  text-decoration: none;
+}
+
+/*readmore arrow*/
+.readmorelink-Salesforce p {
+  display: inline-block;
+  transition: 0.1s ease-in;
+  color: #f1602d;
+}
+
+.readmorelink-Salesforce:hover p {
+  transform: translateX(-100%);
+  color: transparent;
+}
+/* readmore*/
+
+.readmorelink-Salesforce:link {
+  text-decoration: none;
+  font-size: 12px;
+  color: #808287;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.9;
+  letter-spacing: 0.1em;
+
+  float: left;
+  margin-left: 30px;
+}
+
+.readmorelink-Salesforce:visited {
+  text-decoration: none;
+  color: #808287;
+}
+
+.readmorelink-Salesforce:hover {
+  text-decoration: none;
+  color: #f1602d;
+}
+
+.readmorelink-Salesforce:active {
+  text-decoration: none;
+}
+.Salesforce-icon-intro {
+  margin-top: -80px;
+  margin-left: -200px;
+  position: relative;
+  background-color: #f1602d;
+  width: 90px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Salesforce-icon-intro1 {
+  background-image: url("C:\reactjs\clarit\src\picture\salesforce-icon.jpeg");
+  height: 60px;
+  width: 65px;
+}
+
+.Salesforce-container {
+  height: 20px;
+  width: 90px;
+  border-style: solid;
+  border-width: 10px 10px;
+  border-color: #f1602d transparent transparent transparent;
+  margin-top: -10px;
+  margin-left: -200px;
+}
+
+/*RedHat*/
+
+/* center to both side animation
+figure {
+	width: 300px;
+	height: 200px;
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	overflow: hidden;
+}
+
+.hover15 figure {
+	position: relative;
+}
+.hover15 figure::before {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: 1;
+	display: block;
+	content: '';
+	width: 0;
+	height: 100%;
+	background: rgba(255,255,255,.1);
+	transform: translate(-50%, -50%);
+	
+}
+.hover15 figure:hover::before {
+	
+	animation: rectangle .95s;
+}
+
+@keyframes rectangle {
+	0% {
+		opacity: 1;
+	}
+	40% {
+		opacity: 1;
+	}
+	100% {
+		width: 200%;
+		height: 200%;
+		opacity: 0;
+	}
+}
+
+
+
+*/
+
+.zoom-effect-container-RedHat-intro-image {
+  overflow: hidden;
+  width: 350px;
+  height: 350px;
+}
+
+.RedHat-intro-image img {
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+  width: 350px;
+  height: 350px;
+}
+
+.RedHat-intro-box:hover .RedHat-intro-image img {
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+}
+
+.RedHat-intro-box {
+  transition: box-shadow 0.3s;
+  width: 360px;
+  height: 550px;
+  border: 1px solid #6ec1e4;
+  background: #fff;
+  padding: 10px 10px 50px 10px;
+}
+.RedHat-intro-box:hover {
+  box-shadow: 0 0 40px rgba(33, 33, 33, 0.2);
+}
+
+.RedHat-intro-title1 {
+  margin-bottom: 14px;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.4;
+  text-align: left;
+  color: #222429;
+  margin-left: 30px;
+  margin-top: 0px;
+}
+.RedHat-intro-para1 {
+  line-height: 1.9;
+  color: #808287;
+  text-align: left;
+  font-size: 1rem;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  margin-left: 30px;
+}
+
+.RedHat-intro-title1-link:link {
+  text-decoration: none;
+  color: #222429;
+}
+
+.RedHat-intro-title1-link:visited {
+  text-decoration: none;
+  color: #222429;
+}
+
+.RedHat-intro-title1-link:hover {
+  text-decoration: none;
+  color: #f1602d;
+}
+
+.RedHat-intro-title1-link:active {
+  text-decoration: none;
+}
+
+/*readmore arrow*/
+.readmorelink-RedHat p {
+  display: inline-block;
+  transition: 0.1s ease-in;
+  color: #f1602d;
+}
+
+.readmorelink-RedHat:hover p {
+  transform: translateX(-100%);
+  color: transparent;
+}
+/* readmore*/
+
+.readmorelink-RedHat:link {
+  text-decoration: none;
+  font-size: 12px;
+  color: #808287;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.9;
+  letter-spacing: 0.1em;
+
+  float: left;
+  margin-left: 30px;
+}
+
+.readmorelink-RedHat:visited {
+  text-decoration: none;
+  color: #808287;
+}
+
+.readmorelink-RedHat:hover {
+  text-decoration: none;
+  color: #f1602d;
+}
+
+.readmorelink-RedHat:active {
+  text-decoration: none;
+}
+.RedHat-icon-intro8 {
+  margin-top: -80px;
+  margin-left: -200px;
+  position: relative;
+  background-color: #f1602d;
+  width: 90px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.RedHat-icon-intro11 {
+  background-image: url("C:\reactjs\clarit\src\picture\redhaticon.jpeg");
+  height: 80px;
+  width: 60px;
+}
+
+.RedHat-container1 {
+  height: 20px;
+  width: 90px;
+  border-style: solid;
+  border-width: 10px 10px;
+  border-color: #f1602d transparent transparent transparent;
+  margin-top: -10px;
+  margin-left: -200px;
+}

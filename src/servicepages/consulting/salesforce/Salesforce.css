@@ -1,0 +1,157 @@
+ul {
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  display: flex;
+  justify-content: center;
+
+  margin-bottom: 150px;
+  position: absolute;
+  background-color: #ffffff21;
+  padding: 10px 20px 10px 20px;
+  align-self: center;
+
+  width: auto;
+  max-width: auto;
+
+  color: #fff;
+  text-shadow: none;
+
+  list-style-type: none;
+}
+.homli:link {
+  text-decoration: none;
+}
+
+.homli:visited {
+  text-decoration: none;
+}
+
+.homli:hover {
+  text-decoration: none;
+}
+
+.homli:active {
+  text-decoration: none;
+}
+.arrow {
+  padding: auto 5px;
+}
+h1 {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.3;
+  font-family: "Space Grotesk", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.homie {
+  color: #fff;
+  text-shadow: none;
+}
+.homie:hover {
+  color: #f1602d;
+  text-decoration: none;
+}
+img.Salesforce-icon {
+  height: 60px;
+  width: 80px;
+  float: left;
+  margin-top: 115px;
+}
+.Salesforceparatitle {
+  padding-top: 100px;
+}
+.Salesforceparatitle1 {
+  color: #222429;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 1.875rem;
+  font-weight: 700;
+  text-align: left;
+}
+.Salesforcepara1 {
+  font-family: "DM Sans", sans-serif;
+  text-align: justify;
+  color: #69727d;
+  display: block;
+
+  line-height: 2;
+}
+.Salesforcepara {
+  width: 100%;
+  height: 450px;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+.contact-button-training {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactbutton1 {
+  cursor: pointer;
+  margin-top: 40px;
+  background-color: #212529;
+  border: none;
+  width: 200px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  overflow: hidden;
+}
+
+.contact-page-button {
+  z-index: 5;
+  position: relative;
+  transition: color 350ms ease;
+
+  color: #fff;
+  font-family: "DM Sans", sans-serif;
+  line-height: 1.4;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+}
+
+.contactbutton1::after,
+.contactbutton1::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background: #d32d29;
+  z-index: -1;
+}
+
+.contactbutton1::before {
+  /*   background: blue; */
+  transform: translateX(-100%);
+  z-index: 1;
+}
+
+.contactbutton1:hover:before {
+  transform: translateX(0);
+  transition: transform 350ms ease;
+}
+
+.contactbutton1::after {
+  z-index: 0;
+  transform: translateX(100%);
+  transition: none;
+  transition: transform 350ms ease;
+}
+
+.contactbutton1:hover:after {
+  opacity: 1;
+  transform: translateX(0);
+  transition: transform 350ms 360ms ease;
+}

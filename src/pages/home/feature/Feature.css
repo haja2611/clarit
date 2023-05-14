@@ -1,0 +1,60 @@
+.Featureintro-title1 {
+  z-index: 1;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #f1602d;
+  font-size: 14px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+.Feature-line {
+  width: 60px;
+  height: 2px;
+  border: none;
+  background-image: linear-gradient(to right, #f1602d, #fcb900);
+  margin-left: 58%;
+  margin-top: -58px;
+}
+
+.Feature-think {
+  background-image: url("C:\reactjs\clarit\src\picture\md-think-584.jpg");
+  height: 160px;
+  width: 250px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 130px;
+  cursor: pointer;
+}
+.Feature-MST {
+  background-image: url("C:\reactjs\clarit\src\picture\MST_Logo.png");
+  height: 160px;
+  width: 250px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.Feature-Centene {
+  background-image: url("C:\reactjs\clarit\src\picture\Centene_Corporation_Logo.svg_.png");
+  height: 160px;
+  width: 250px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  margin-top: 50px;
+}
+.Feature-reynolds {
+  background-image: url("C:\reactjs\clarit\src\picture\reynolds-american-logo.png");
+  height: 160px;
+  width: 250px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  margin-top: 30px;
+  margin-right: 130px;
+}

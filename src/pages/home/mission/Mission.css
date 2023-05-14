@@ -1,0 +1,31 @@
+.iconsrocket {
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 20px;
+
+  color: #d32d29;
+
+  font-size: 50px;
+}
+.projects {
+  background-image: url("C:\reactjs\clarit\src\picture\tmptrn1.png");
+  transition: 0.3s;
+  box-shadow: 0 0 20px rgba(33, 33, 33, 0.1);
+}
+.projects:hover .topbox {
+  border-radius: 110px;
+  color: white;
+  background-color: #d32d29;
+}
+.projects:hover .iconsrocket {
+  color: #fff;
+}
+.topbox {
+  transition: all 1s;
+}
+.projects:hover {
+  transform: translate(0, -10px);
+}
+.mission-box-titles {
+  background-color: #f1602d;
+}
