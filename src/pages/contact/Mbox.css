@@ -1,0 +1,31 @@
+.form {
+  font-family: "DM Sans", sans-serif;
+}
+
+.button {
+  border: none;
+  color: white;
+  border-color: #f1602d;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "DM Sans", sans-serif;
+  margin-top: 20px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  width: 45%;
+  height: 60px;
+}
+
+.button1 {
+  background-color: #f1602d;
+}
+
+.button1:hover {
+  background-color: #d32d29;
+  color: white;
+}

@@ -1,0 +1,120 @@
+.fb-title1 {
+  z-index: 1;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #f1602d;
+  font-size: 14px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  margin-top: 100px;
+  text-align: center;
+  position: relative;
+}
+.fbline {
+  width: 60px;
+  height: 2px;
+  border: none;
+  background-image: linear-gradient(to right, #f1602d, #fcb900);
+  margin-left: 60%;
+  margin-top: -40px;
+  position: relative;
+}
+.fb-title2 {
+  font-size: 3rem;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  line-height: 1.3;
+  position: relative;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.64px;
+  color: #222429;
+  text-align: center;
+}
+
+.fbmovimg {
+  background-image: url("C:\reactjs\clarit\src\picture\fb-bg.png");
+  -webkit-animation: card-shift 12s ease-in-out infinite;
+  animation: card-shift 12s ease-in-out infinite;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  display: inline-block;
+  overflow: hidden;
+  height: 700px;
+  width: 1500px;
+  background-size: contain;
+}
+.fbpage {
+  overflow: hidden;
+  display: block;
+
+  position: relative;
+}
+.fbmovimg :before {
+  content: " ";
+  display: block;
+  height: 700px;
+  width: 1500px;
+  border: solid 1px transparent;
+}
+
+@keyframes card-shift {
+  0% {
+    -webkit-transform: translate3d(-30px, 0, 0);
+    transform: translate3d(-30px, 0, 0);
+  }
+  25% {
+    -webkit-transform: translate3d(0, -30px, 0);
+    transform: translate3d(0, -30px, 0);
+  }
+  50% {
+    -webkit-transform: translate3d(0, -30px, 0);
+    transform: translate3d(0, -30px, 0);
+  }
+  75% {
+    -webkit-transform: translate3d(-30px, 0, 0);
+    transform: translate3d(-30px, 0, 0);
+  }
+  to {
+    -webkit-transform: translate3d(-30px, 0, 0);
+    transform: translate3d(-30px, 0, 0);
+  }
+}
+
+.swiper {
+  width: 100%;
+  height: 40%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  margin-top: -70px;
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  width: 100%;
+}
+
+.feedbackimg1 {
+  width: 1500px;
+  height: 400px;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  margin-left: 100px;
+
+  background-image: url("C:\reactjs\clarit\src\picture\Web capture_14-5-2023_573_cosecantinc.com.jpeg");
+}
+.feedbackimg2 {
+  width: 1500px;
+  height: 400px;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  margin-left: 100px;
+
+  background-image: url("C:\reactjs\clarit\src\picture\Web capture_14-5-2023_5618_cosecantinc.com.jpeg");
+}

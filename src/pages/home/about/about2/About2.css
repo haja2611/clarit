@@ -1,0 +1,283 @@
+.harvey:before {
+  content: " ";
+  display: block;
+  border: solid 1px transparent;
+  height: 800px;
+  width: 800px;
+  background-color: #f1f2f5;
+}
+
+@keyframes card-shift {
+  0% {
+    -webkit-transform: translate3d(-30px, 0, 0);
+    transform: translate3d(-30px, 0, 0);
+  }
+  25% {
+    -webkit-transform: translate3d(0, -30px, 0);
+    transform: translate3d(0, -30px, 0);
+  }
+  50% {
+    -webkit-transform: translate3d(0, -30px, 0);
+    transform: translate3d(0, -30px, 0);
+  }
+  75% {
+    -webkit-transform: translate3d(-30px, 0, 0);
+    transform: translate3d(-30px, 0, 0);
+  }
+  to {
+    -webkit-transform: translate3d(-30px, 0, 0);
+    transform: translate3d(-30px, 0, 0);
+  }
+}
+
+.card-wrapper {
+  overflow: hidden;
+  display: block;
+  height: 900px;
+  position: relative;
+  width: 800px;
+}
+
+.harvey {
+  -webkit-animation: card-shift 12s ease-in-out infinite;
+  animation: card-shift 12s ease-in-out infinite;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  display: inline-block;
+  width: 800px;
+  height: 800px;
+  border-radius: 100%;
+  overflow: hidden;
+  margin-top: -450px;
+  margin-right: -450px;
+}
+/* title para*/
+.about2-title1 {
+  z-index: 1;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #f1602d;
+  font-size: 14px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  position: absolute;
+  margin-top: 60px;
+  margin-left: 120px;
+}
+.about2-titlehr {
+  width: 60px;
+  height: 2px;
+  border: none;
+  background-image: linear-gradient(to right, #f1602d, #fcb900);
+  position: absolute;
+  margin-top: 67px;
+  margin-left: 320px;
+}
+.about2-title2 {
+  font-size: 3rem;
+  margin-top: 80px;
+  margin-bottom: 10px;
+  line-height: 1.3;
+  position: absolute;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.64px;
+  color: #222429;
+  margin-left: 120px;
+}
+.about2-intro-para1 {
+  line-height: 1.9;
+  color: #808287;
+  text-align: justify;
+  font-size: 1rem;
+  font-family: "DM Sans", sans-serif;
+  position: absolute;
+  font-weight: 400;
+  margin-left: 120px;
+  margin-top: 150px;
+  margin-right: 100px;
+}
+
+.about2-box {
+  margin-top: 350px;
+  margin-left: 120px;
+  background-color: #fff;
+  height: 160px;
+  width: 400px;
+  position: absolute;
+  border-bottom: solid 0.2px rgba(33, 33, 33, 0.2);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about2-box-icon {
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin-top: 0px;
+  margin-left: 0px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about2-box-icon1 {
+  background-image: url("C:\reactjs\clarit\src\picture\man.jpeg");
+  height: 70px;
+  width: 70px;
+  background-size: contain;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: 0.7s ease;
+}
+.about2-box:hover .about2-box-icon1 {
+  transform: rotateY(180deg);
+}
+.about2-box-name1 {
+  color: #333;
+  font-weight: 500;
+  line-height: 1.9;
+  font-size: 1rem;
+  font-family: "DM Sans", sans-serif;
+  text-align: justify;
+}
+/*Discover*/
+
+.discover-button {
+  margin-top: 490px;
+  margin-left: 120px;
+}
+
+.discoverbutton1 {
+  cursor: pointer;
+  margin-top: 40px;
+  background-color: #f1602d;
+  border: none;
+  width: 250px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  overflow: hidden;
+}
+
+.service-page-button {
+  z-index: 5;
+  position: relative;
+  transition: color 350ms ease;
+
+  color: #fff;
+  font-family: "DM Sans", sans-serif;
+  line-height: 1.4;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+}
+
+.discoverbutton1::after,
+.discoverbutton1::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background: #d32d29;
+  z-index: -1;
+}
+.discoverbutton1::before {
+  /*   background: blue; */
+  transform: translateX(-100%);
+  z-index: 1;
+}
+
+.discoverbutton1:hover:before {
+  transform: translateX(0);
+  transition: transform 350ms ease;
+}
+
+.discoverbutton1::after {
+  z-index: 0;
+  transform: translateX(100%);
+  transition: none;
+  transition: transform 350ms ease;
+}
+
+.discoverbutton1:hover:after {
+  opacity: 1;
+  transform: translateX(0);
+  transition: transform 350ms 360ms ease;
+}
+.discoverbutton1:link {
+  text-decoration: none;
+}
+
+.discoverbutton1:visited {
+  text-decoration: none;
+}
+
+.discoverbutton1:hover {
+  text-decoration: none;
+}
+
+.discoverbutton1:active {
+  text-decoration: none;
+}
+/*start up*/
+
+.startup {
+  height: 240px;
+  width: 180px;
+  background-color: #f4f5f8;
+  position: relative;
+  margin-top: -140px;
+  margin-left: 550px;
+  border-top: solid 5px #f1602d;
+}
+.startup:hover {
+  background-color: #fff;
+}
+.startup-para {
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.4;
+  font-family: "Space Grotesk", sans-serif;
+  color: #222429;
+  text-align: justify;
+  margin-left: 40px;
+}
+.startup-contact {
+  color: #a2b6c9;
+  font-size: 12px;
+  line-height: 1.4;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  margin-left: 40px;
+  text-transform: uppercase;
+  font-family: "DM Sans", sans-serif;
+}
+.startup-contact:hover {
+  color: #f1602d;
+}
+.startup-contact:link {
+  text-decoration: none;
+}
+
+.startup-contact:visited {
+  text-decoration: none;
+}
+
+.startup-contact:hover {
+  text-decoration: none;
+}
+
+.startup-contact:active {
+  text-decoration: none;
+}

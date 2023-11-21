@@ -1,0 +1,915 @@
+.service-homli {
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  display: flex;
+  justify-content: center;
+
+  margin-bottom: 150px;
+  position: absolute;
+  background-color: #ffffff21;
+  padding: 10px 20px 10px 20px;
+  align-self: center;
+
+  width: auto;
+  max-width: auto;
+
+  color: #fff;
+  text-shadow: none;
+
+  list-style-type: none;
+}
+.homli:link {
+  text-decoration: none;
+}
+
+.homli:visited {
+  text-decoration: none;
+}
+
+.homli:hover {
+  text-decoration: none;
+}
+
+.homli:active {
+  text-decoration: none;
+}
+.arrow {
+  padding: auto 5px;
+}
+.homie {
+  color: #fff;
+  text-shadow: none;
+}
+.homie:hover {
+  color: #f1602d;
+  text-decoration: none;
+}
+h3 {
+  color: #222429;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 1.875rem;
+  font-weight: 700;
+  text-align: left;
+}
+h4 {
+  color: #222429;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+  margin-bottom: 2%;
+}
+
+.intro-boxes1 {
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+
+  margin-top: 130px;
+}
+.intro-boxes2 {
+  padding-left: 65px;
+  padding-right: 450px;
+
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+
+.zoom-effect-container-infor-intro-image {
+  overflow: hidden;
+  width: 350px;
+  height: 350px;
+}
+
+.infor-intro-image img {
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+  width: 350px;
+  height: 350px;
+}
+
+.informatica-intro-box:hover .infor-intro-image img {
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+}
+
+.informatica-intro-box {
+  transition: box-shadow 0.3s;
+  width: 360px;
+  height: 550px;
+  border: 1px solid #6ec1e4;
+  background: #fff;
+  padding: 10px 10px 50px 10px;
+}
+.informatica-intro-box:hover {
+  box-shadow: 0 0 40px rgba(33, 33, 33, 0.2);
+}
+
+.infor-intro-title1 {
+  margin-bottom: 14px;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.4;
+  text-align: left;
+  color: #222429;
+  margin-left: 30px;
+  margin-top: 0px;
+}
+.infor-intro-para1 {
+  line-height: 1.9;
+  color: #808287;
+  text-align: left;
+  font-size: 1rem;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  margin-left: 30px;
+}
+
+.infor-intro-title1-link:link {
+  text-decoration: none;
+  color: #222429;
+}
+
+.infor-intro-title1-link:visited {
+  text-decoration: none;
+  color: #222429;
+}
+
+.infor-intro-title1-link:hover {
+  text-decoration: none;
+  color: #f1602d;
+}
+
+.infor-intro-title1-link:active {
+  text-decoration: none;
+}
+
+/*readmore arrow*/
+.readmorelink-infotmatica p {
+  display: inline-block;
+  transition: 0.1s ease-in;
+  color: #f1602d;
+}
+
+.readmorelink-infotmatica:hover p {
+  transform: translateX(-100%);
+  color: transparent;
+}
+/* readmore*/
+
+.readmorelink-infotmatica:link {
+  text-decoration: none;
+  font-size: 12px;
+  color: #808287;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.9;
+  letter-spacing: 0.1em;
+
+  float: left;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+
+.readmorelink-infotmatica:visited {
+  text-decoration: none;
+  color: #808287;
+}
+
+.readmorelink-infotmatica:hover {
+  text-decoration: none;
+  color: #f1602d;
+}
+
+.readmorelink-infotmatica:active {
+  text-decoration: none;
+}
+.bussiness-icon-intro {
+  margin-top: -80px;
+  margin-left: -200px;
+  position: relative;
+  width: 90px;
+  height: 90px;
+  background-color: #f1602d;
+}
+.bussiness-icon-intro1 {
+  background-image: url("C:\reactjs\clarit\src\picture\business-icon-intro.jpg");
+  height: 80px;
+  width: 90px;
+}
+
+.infor-container {
+  height: 20px;
+  width: 90px;
+  border-style: solid;
+  border-width: 10px 10px;
+  border-color: #f1602d transparent transparent transparent;
+  margin-top: -10px;
+  margin-left: -200px;
+}
+
+/*salesforce*/
+
+/* center to both side animation
+  figure {
+      width: 300px;
+      height: 200px;
+      margin: 0;
+      padding: 0;
+      background: #fff;
+      overflow: hidden;
+  }
+  
+  .hover15 figure {
+      position: relative;
+  }
+  .hover15 figure::before {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      z-index: 1;
+      display: block;
+      content: '';
+      width: 0;
+      height: 100%;
+      background: rgba(255,255,255,.1);
+      transform: translate(-50%, -50%);
+      
+  }
+  .hover15 figure:hover::before {
+      
+      animation: rectangle .95s;
+  }
+  
+  @keyframes rectangle {
+      0% {
+          opacity: 1;
+      }
+      40% {
+          opacity: 1;
+      }
+      100% {
+          width: 200%;
+          height: 200%;
+          opacity: 0;
+      }
+  }
+  
+  
+  
+  */
+
+.zoom-effect-container-Salesforce-intro-image {
+  overflow: hidden;
+  width: 350px;
+  height: 350px;
+}
+
+.Salesforce-intro-image img {
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+  width: 350px;
+  height: 350px;
+}
+
+.Salesforce-intro-box:hover .Salesforce-intro-image img {
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+}
+
+.Salesforce-intro-box {
+  transition: box-shadow 0.3s;
+  width: 360px;
+  height: 580px;
+  border: 1px solid #6ec1e4;
+  background: #fff;
+  padding: 10px 10px 50px 10px;
+}
+.Salesforce-intro-box:hover {
+  box-shadow: 0 0 40px rgba(33, 33, 33, 0.2);
+}
+
+.Salesforce-intro-title1 {
+  margin-bottom: 14px;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.4;
+  text-align: left;
+  color: #222429;
+  margin-left: 30px;
+  margin-top: 0px;
+}
+.Salesforce-intro-para1 {
+  line-height: 1.9;
+  color: #808287;
+  text-align: left;
+  font-size: 1rem;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  margin-left: 30px;
+}
+
+.Salesforce-intro-title1-link:link {
+  text-decoration: none;
+  color: #222429;
+}
+
+.Salesforce-intro-title1-link:visited {
+  text-decoration: none;
+  color: #222429;
+}
+
+.Salesforce-intro-title1-link:hover {
+  text-decoration: none;
+  color: #f1602d;
+}
+
+.infor-intro-title1-link:active {
+  text-decoration: none;
+}
+
+/*readmore arrow*/
+.readmorelink-Salesforce p {
+  display: inline-block;
+  transition: 0.1s ease-in;
+  color: #f1602d;
+}
+
+.readmorelink-Salesforce:hover p {
+  transform: translateX(-100%);
+  color: transparent;
+}
+/* readmore*/
+
+.readmorelink-Salesforce:link {
+  text-decoration: none;
+  font-size: 12px;
+  color: #808287;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.9;
+  letter-spacing: 0.1em;
+
+  float: left;
+  margin-left: 30px;
+}
+
+.readmorelink-Salesforce:visited {
+  text-decoration: none;
+  color: #808287;
+}
+
+.readmorelink-Salesforce:hover {
+  text-decoration: none;
+  color: #f1602d;
+}
+
+.readmorelink-Salesforce:active {
+  text-decoration: none;
+}
+.Salesforce-icon-intro {
+  margin-top: -80px;
+  margin-left: -200px;
+  position: relative;
+  background-color: #f1602d;
+  width: 90px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Salesforce-icon-intro1 {
+  background-image: url("C:\reactjs\clarit\src\picture\salesforce-icon.jpeg");
+  height: 60px;
+  width: 65px;
+}
+
+.Salesforce-container {
+  height: 20px;
+  width: 90px;
+  border-style: solid;
+  border-width: 10px 10px;
+  border-color: #f1602d transparent transparent transparent;
+  margin-top: -10px;
+  margin-left: -200px;
+}
+
+/*RedHat*/
+
+/* center to both side animation
+  figure {
+      width: 300px;
+      height: 200px;
+      margin: 0;
+      padding: 0;
+      background: #fff;
+      overflow: hidden;
+  }
+  
+  .hover15 figure {
+      position: relative;
+  }
+  .hover15 figure::before {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      z-index: 1;
+      display: block;
+      content: '';
+      width: 0;
+      height: 100%;
+      background: rgba(255,255,255,.1);
+      transform: translate(-50%, -50%);
+      
+  }
+  .hover15 figure:hover::before {
+      
+      animation: rectangle .95s;
+  }
+  
+  @keyframes rectangle {
+      0% {
+          opacity: 1;
+      }
+      40% {
+          opacity: 1;
+      }
+      100% {
+          width: 200%;
+          height: 200%;
+          opacity: 0;
+      }
+  }
+  
+  
+  
+  */
+
+.zoom-effect-container-RedHat-intro-image {
+  overflow: hidden;
+  width: 350px;
+  height: 350px;
+}
+
+.RedHat-intro-image img {
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+  width: 350px;
+  height: 350px;
+}
+
+.RedHat-intro-box:hover .RedHat-intro-image img {
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+}
+
+.RedHat-intro-box {
+  transition: box-shadow 0.3s;
+  width: 360px;
+  height: 550px;
+  border: 1px solid #6ec1e4;
+  background: #fff;
+  padding: 10px 10px 50px 10px;
+}
+.RedHat-intro-box:hover {
+  box-shadow: 0 0 40px rgba(33, 33, 33, 0.2);
+}
+
+.RedHat-intro-title1 {
+  margin-bottom: 14px;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.4;
+  text-align: left;
+  color: #222429;
+  margin-left: 30px;
+  margin-top: 0px;
+}
+.RedHat-intro-para1 {
+  line-height: 1.9;
+  color: #808287;
+  text-align: left;
+  font-size: 1rem;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  margin-left: 30px;
+}
+
+.RedHat-intro-title1-link:link {
+  text-decoration: none;
+  color: #222429;
+}
+
+.RedHat-intro-title1-link:visited {
+  text-decoration: none;
+  color: #222429;
+}
+
+.RedHat-intro-title1-link:hover {
+  text-decoration: none;
+  color: #f1602d;
+}
+
+.RedHat-intro-title1-link:active {
+  text-decoration: none;
+}
+
+/*readmore arrow*/
+.readmorelink-RedHat p {
+  display: inline-block;
+  transition: 0.1s ease-in;
+  color: #f1602d;
+}
+
+.readmorelink-RedHat:hover p {
+  transform: translateX(-100%);
+  color: transparent;
+}
+/* readmore*/
+
+.readmorelink-RedHat:link {
+  text-decoration: none;
+  font-size: 12px;
+  color: #808287;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.9;
+  letter-spacing: 0.1em;
+
+  float: left;
+  margin-left: 30px;
+}
+
+.readmorelink-RedHat:visited {
+  text-decoration: none;
+  color: #808287;
+}
+
+.readmorelink-RedHat:hover {
+  text-decoration: none;
+  color: #f1602d;
+}
+
+.readmorelink-RedHat:active {
+  text-decoration: none;
+}
+.RedHat-icon-intro {
+  margin-top: -80px;
+  margin-left: 30px;
+  position: relative;
+  background-color: #f1602d;
+  width: 90px;
+  height: 90px;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.RedHat-icon-intro1 {
+  background-image: url("C:\reactjs\clarit\src\picture\redhaticon.jpeg");
+  height: 80px;
+  width: 60px;
+  padding-top: 5px;
+}
+
+.RedHat-container {
+  height: 20px;
+  width: 90px;
+  border-style: solid;
+  border-width: 10px 10px;
+  border-color: #f1602d transparent transparent transparent;
+  margin-top: -10px;
+  margin-left: 18px;
+}
+
+/*Postgre*/
+
+/* center to both side animation
+  figure {
+      width: 300px;
+      height: 200px;
+      margin: 0;
+      padding: 0;
+      background: #fff;
+      overflow: hidden;
+  }
+  
+  .hover15 figure {
+      position: relative;
+  }
+  .hover15 figure::before {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      z-index: 1;
+      display: block;
+      content: '';
+      width: 0;
+      height: 100%;
+      background: rgba(255,255,255,.1);
+      transform: translate(-50%, -50%);
+      
+  }
+  .hover15 figure:hover::before {
+      
+      animation: rectangle .95s;
+  }
+  
+  @keyframes rectangle {
+      0% {
+          opacity: 1;
+      }
+      40% {
+          opacity: 1;
+      }
+      100% {
+          width: 200%;
+          height: 200%;
+          opacity: 0;
+      }
+  }
+  
+  
+  
+  */
+
+.zoom-effect-container-PostgreSQL-intro-image {
+  overflow: hidden;
+  width: 350px;
+  height: 350px;
+}
+
+.PostgreSQL-intro-image img {
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+  width: 350px;
+  height: 350px;
+}
+
+.PostgreSQL-intro-box:hover .PostgreSQL-intro-image img {
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+}
+
+.PostgreSQL-intro-box {
+  transition: box-shadow 0.3s;
+  width: 360px;
+  height: 580px;
+  border: 1px solid #6ec1e4;
+  background: #fff;
+  padding: 10px 10px 50px 10px;
+}
+.PostgreSQL-intro-box:hover {
+  box-shadow: 0 0 40px rgba(33, 33, 33, 0.2);
+}
+
+.PostgreSQL-intro-title1 {
+  margin-bottom: 14px;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.4;
+  text-align: left;
+  color: #222429;
+  margin-left: 30px;
+  margin-top: -20px;
+}
+.PostgreSQL-intro-para1 {
+  line-height: 1.9;
+  color: #808287;
+  text-align: left;
+  font-size: 1rem;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  margin-left: 30px;
+}
+
+.PostgreSQL-intro-title1-link:link {
+  text-decoration: none;
+  color: #222429;
+}
+
+.PostgreSQL-intro-title1-link:visited {
+  text-decoration: none;
+  color: #222429;
+}
+
+.PostgreSQL-intro-title1-link:hover {
+  text-decoration: none;
+  color: #f1602d;
+}
+
+.PostgreSQ-intro-title1-link:active {
+  text-decoration: none;
+}
+
+/*readmore arrow*/
+.readmorelink-PostgreSQL p {
+  display: inline-block;
+  transition: 0.1s ease-in;
+  color: #f1602d;
+}
+
+.readmorelink-PostgreSQL:hover p {
+  transform: translateX(-100%);
+  color: transparent;
+}
+/* readmore*/
+
+.readmorelink-PostgreSQL:link {
+  text-decoration: none;
+  font-size: 12px;
+  color: #808287;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.9;
+  letter-spacing: 0.1em;
+
+  float: left;
+  margin-left: 30px;
+}
+
+.readmorelink-PostgreSQL:visited {
+  text-decoration: none;
+  color: #808287;
+}
+
+.readmorelink-PostgreSQL:hover {
+  text-decoration: none;
+  color: #f1602d;
+}
+
+.readmorelink-PostgreSQL:active {
+  text-decoration: none;
+}
+.PostgreSQL-icon-intro {
+  margin-top: -80px;
+  margin-left: -200px;
+  position: relative;
+  background-color: #f1602d;
+  width: 90px;
+  height: 90px;
+}
+.PostgreSQL-icon-intro1 {
+  background-image: url("C:\reactjs\clarit\src\picture\post.jpeg");
+  height: 60px;
+  width: 65px;
+  padding-top: 10px;
+}
+
+.PostgreSQL-container {
+  height: 20px;
+  width: 90px;
+  border-style: solid;
+  border-width: 10px 10px;
+  border-color: #f1602d transparent transparent transparent;
+  margin-top: -10px;
+  margin-left: -200px;
+}
+
+/*Web-Development*/
+
+.zoom-effect-container-Web-intro-image {
+  overflow: hidden;
+  width: 350px;
+  height: 350px;
+}
+
+.Web-intro-image img {
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+  width: 350px;
+  height: 350px;
+}
+
+.Web-intro-box:hover .Web-intro-image img {
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+}
+
+.Web-intro-box {
+  transition: box-shadow 0.3s;
+  width: 360px;
+  height: 580px;
+  border: 1px solid #6ec1e4;
+  background: #fff;
+  padding: 10px 5px 50px 10px;
+}
+.Web-intro-box:hover {
+  box-shadow: 0 0 40px rgba(33, 33, 33, 0.2);
+}
+
+.Web-intro-title1 {
+  margin-bottom: 14px;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.4;
+  text-align: left;
+  color: #222429;
+  margin-left: 30px;
+  margin-top: -20px;
+}
+.Web-intro-para1 {
+  line-height: 1.9;
+  color: #808287;
+  text-align: left;
+  font-size: 1rem;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  margin-left: 30px;
+}
+
+.Web-title1-link:link {
+  text-decoration: none;
+  color: #222429;
+}
+
+.Web-title1-link:visited {
+  text-decoration: none;
+  color: #222429;
+}
+
+.Web-title1-link:hover {
+  text-decoration: none;
+  color: #f1602d;
+}
+
+.Web-title1-link:active {
+  text-decoration: none;
+}
+
+/*readmore arrow*/
+.readmorelink-Web p {
+  display: inline-block;
+  transition: 0.1s ease-in;
+  color: #f1602d;
+}
+
+.readmorelink-Web:hover p {
+  transform: translateX(-100%);
+  color: transparent;
+}
+/* readmore*/
+
+.readmorelink-Web:link {
+  text-decoration: none;
+  font-size: 12px;
+  color: #808287;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.9;
+  letter-spacing: 0.1em;
+
+  float: left;
+  margin-left: 30px;
+}
+
+.readmorelink-Web:visited {
+  text-decoration: none;
+  color: #808287;
+}
+
+.readmorelink-Web:hover {
+  text-decoration: none;
+  color: #f1602d;
+}
+
+.readmorelink-Web:active {
+  text-decoration: none;
+}
+.Web-icon-intro {
+  margin-top: -80px;
+  margin-left: 30px;
+  position: relative;
+  background-color: #f1602d;
+  width: 90px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Web-icon-intro1 {
+  background-image: url("C:\reactjs\clarit\src\picture\web.jpeg");
+  height: 60px;
+  width: 65px;
+  margin-top: 0px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.Web-container {
+  height: 20px;
+  width: 90px;
+  border-style: solid;
+  border-width: 10px 10px;
+  border-color: #f1602d transparent transparent transparent;
+  margin-top: -10px;
+  margin-left: 19px;
+}
